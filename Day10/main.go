@@ -62,9 +62,11 @@ func main() {
 	length := 0
 	DFS(a, sp, visited, &length, tuple{-1, -1})
 	fmt.Println(length)
-
 }
 
+func floodFill(a [][]byte, map[tuple]int visited){
+
+}
 /*
 -1 -1 -1 -1
 a--b--c--d
